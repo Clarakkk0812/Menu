@@ -1,0 +1,37 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ef44ff, #c7a4f3);
+}
+
+.card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.imagem {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+.menu {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu:hover {
+    color: #ed37fa; 
+}
